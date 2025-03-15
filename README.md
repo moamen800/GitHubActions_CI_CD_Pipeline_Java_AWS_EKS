@@ -1,10 +1,3 @@
-Thanks for the clarification! Since you're using **`eksctl`** to create the **AWS EKS Cluster** instead of **Terraform**, I'll update the **`README.md`** to reflect that.
-
----
-
-### ✅ **Updated `README.md`**
-
-```markdown
 # **GitHubActions_CI_CD_Pipeline_Java_AWS_EKS**
 ### 🚀 CI/CD Pipeline for Java Application with GitHub Actions, Docker, and AWS EKS
 
