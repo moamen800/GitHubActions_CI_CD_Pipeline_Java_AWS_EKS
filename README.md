@@ -148,7 +148,7 @@ Add the following **Secrets** in **GitHub Repository → Settings → Secrets an
 ### **Test CI Workflow**
 ```bash
 git checkout -b test-ci
-echo "## CI/CD Pipeline Setup" >> README.md
+echo "## Test CI Pipeline Setup" >> README.md
 git add .
 git commit -m "Test CI workflow"
 git push origin test-ci
