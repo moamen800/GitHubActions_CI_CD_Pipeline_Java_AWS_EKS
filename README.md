@@ -34,7 +34,6 @@ GitHubActions_CI_CD_Pipeline_Java_AWS_EKS/
 │
 │── k8s/                      # Kubernetes Deployment Files
 │   ├── deployment.yaml        # K8s deployment manifest
-│   ├── service.yaml           # K8s service manifest
 │
 │── src/                      # Java Spring Boot source code
 │
@@ -198,8 +197,3 @@ This command will:
 If you have any questions, reach out via:
 - **Author:** `Moamen Ahmed`
 - **Email:** `moamenahmed800@gmail.com`
-
----
-
-### 🎉 **Happy Coding! 🚀**
-
