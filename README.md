@@ -1,7 +1,7 @@
-# **GitHubActions_CI_CD_Pipeline_Java_AWS_EKS**
-### 🚀 CI/CD Pipeline for Java Application with GitHub Actions, Docker, and AWS EKS
+# **GitHubActions_CI_CD_Pipeline_Java_AWS_EKS**  
+### 🚀 CI/CD Pipeline for Java Application with GitHub Actions, Docker, and AWS EKS  
 
-This repository automates the **Continuous Integration (CI) and Continuous Deployment (CD)** process for a **Java Spring Boot application** using **GitHub Actions, Docker, AWS EKS (Elastic Kubernetes Service), and `eksctl`.**
+This repository automates the **Continuous Integration (CI) and Continuous Deployment (CD)** process for a **Java Spring Boot application** using **GitHub Actions, Docker, AWS EKS (Elastic Kubernetes Service), and `eksctl`**.
 
 ---
 
@@ -26,7 +26,7 @@ This repository automates the **Continuous Integration (CI) and Continuous Deplo
 ---
 
 ## **📂 Folder Structure**
-```
+```plaintext
 GitHubActions_CI_CD_Pipeline_Java_AWS_EKS/
 │── .github/workflows/        # GitHub Actions workflows
 │   ├── ci.yml                # CI workflow (Build & Test)
@@ -40,6 +40,9 @@ GitHubActions_CI_CD_Pipeline_Java_AWS_EKS/
 │
 │── pom.xml                   # Maven configuration file
 │── Dockerfile                # Docker build configuration
+│── Jenkinsfile               # Jenkins pipeline configuration
+│── commands.sh               # Deployment script
+│── .gitignore                # Git ignore file
 │── README.md                 # Documentation
 ```
 
@@ -191,11 +194,6 @@ This command will:
 
 ---
 
-## **📜 License**
-This project is licensed under **MIT License**.
-
----
-
 ## **📧 Contact**
 If you have any questions, reach out via:
 - **Author:** `Moamen Ahmed`
@@ -203,6 +201,5 @@ If you have any questions, reach out via:
 
 ---
 
-### 🎉 **Happy Coding! 🚀**  
----
+### 🎉 **Happy Coding! 🚀**
 
