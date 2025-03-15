@@ -169,16 +169,8 @@ git push origin main
 Once the application is deployed, verify the running pods:
 ```bash
 kubectl get pods
-kubectl get services
-```
 
-If using **port forwarding**:
-```bash
-kubectl port-forward service/java-app-service 8080:80
 ```
-Now, you can access the application at `http://localhost:8080`.
-
----
 
 ## **🛑 Destroy Resources**
 To delete the EKS cluster and free resources:
